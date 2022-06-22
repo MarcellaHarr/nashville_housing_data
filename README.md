@@ -48,7 +48,7 @@ The data set opened in Excel with columns of 18 "General" and 1 "Date (April 9, 
 ## In SQL Server
 Unfortunately, I didn't notate the initial data type for the columns, the total of nulls or count of distinct values. I have split my queries into multiple files for categorzing as specific tasks.
 
-Post cleaned, there are a total of 21 columns and 56,477 rows not including the header.
+Post cleaned, there are a total of 21 columns and 56,477 rows not including the header. Also, a total of 26 query statements.
 
 To see more of my work, please visit my portfolio at: [Data-Folio](https://marcellaharr.github.io/portfolio/).
 

@@ -1,0 +1,52 @@
+-- Open SQL Server Import and Export Wizard
+    --> Next
+    -- Data Source drop-down menue:
+        --> Microsoft Excel
+    -- Excel file Path: select "Browse" button below:
+        --> find/locate where file was saved/downloaded
+        --> select it
+        --> Select "Open" button
+    -- Excel version:
+        --> I selected from the drop-down menu "Microsoft Excell 2007-2010"
+        --> check box "First row has column names", if it's not checked
+        --> "Next" button
+    -- Destination: drop-down menu
+        --> select "SQL Server Native Client 11.0"
+    -- Server name: change if you need to but I didn't.
+    -- I used the one I setup initially (during the download and install step)
+    -- Authentication:
+        --> leave it on defualt which is the radio button
+        --> "Use Windows Authentication"
+    -- Database: used the one created before import wizard
+        --> click on the drop-down menu
+        --> select the database created
+        --> select "Next"
+    --> Select the first radio button
+        --> "Copy data from one or more tables or views"
+        --> select "Next"
+    --> Select the sheet you want
+        --> I selected the first sheet "Sheet1$"
+        --> select "Next"
+    --> Check "Run immadiately" it it's not checked
+        --> select the "Finish" button
+    -- Eexucution will run. Let it finish.
+        --> select "Close"
+    --> Go back to SQL Server Management Studio
+    --> Object Explorer:
+        -- Connect:
+            --> select the refresh button (the open circle)
+        -- Rename the table: below the Connect bar
+            --> select "Database Diagrams"
+            --> "Tables"
+            --> right click and type the new name
+            --> click off by the side
+        -- View the table
+            --> right click
+            --> select "Select Top 1000 Rows"
+        -- Create new sql file
+            --> select "File"
+            --> "New"
+            --> "File"
+            -- or use keyboard shortcut Ctrl+Alt+N
+
+    
